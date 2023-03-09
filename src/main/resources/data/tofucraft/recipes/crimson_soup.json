@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "tofucraft:seeds_soybeans_nether"
+    },
+    {
+      "item": "tofucraft:seeds_soybeans_nether"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:crimson_soup"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

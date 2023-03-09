@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    [
+      {
+        "item": "tofucraft:tofukinu"
+      },
+      {
+        "item": "tofucraft:tofumomen"
+      }
+    ],
+    {
+      "item": "tofucraft:miso"
+    },
+    {
+      "item": "tofucraft:bottle_dashi"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:misosoup"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

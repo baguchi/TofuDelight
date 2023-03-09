@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "tofucraft:zunda"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "tofucraft:starch"
+    },
+    {
+      "item": "tofucraft:bottle_dashi"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:tofuzunda"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

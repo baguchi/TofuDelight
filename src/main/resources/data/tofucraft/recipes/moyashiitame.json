@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "tofucraft:bottle_dashi"
+    },
+    {
+      "item": "tofucraft:bottle_soysause"
+    },
+    {
+      "tag": "forge:dust/salt"
+    },
+    {
+      "item": "tofucraft:sprouts"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:moyashiitame"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

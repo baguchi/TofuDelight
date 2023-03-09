@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "tofucraft:tofufried_pouch"
+    },
+    {
+      "item": "tofucraft:bottle_dashi"
+    },
+    {
+      "item": "tofucraft:bottle_soysause"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:agedashi_tofu"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}
