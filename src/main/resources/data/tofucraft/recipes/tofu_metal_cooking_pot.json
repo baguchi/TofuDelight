@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "b": {
+      "item": "minecraft:brick"
+    },
+    "i": {
+      "item": "tofucraft:tofumetal"
+    }
+  },
+  "pattern": [
+    "bSb",
+    "iWi",
+    "iii"
+  ],
+  "result": {
+    "item": "tofudelight:tofu_metal_cooking_pot"
+  }
+}

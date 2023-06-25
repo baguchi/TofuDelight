@@ -1,12 +1,13 @@
 {
   "credit": "Made with Blockbench",
   "parent": "block/block",
+  "render_type": "minecraft:cutout",
   "textures": {
     "top": "tofudelight:block/tofu_metal_cooking_pot_top",
-    "particle": "tofudelight:block/tofu_metal_pot_bottom",
-    "side": "tofudelight:block/tofu_metal_pot_side",
-    "parts": "tofudelight:block/tofu_metal_pot_parts",
-    "bottom": "tofudelight:block/tofu_metal_pot_bottom"
+    "particle": "tofudelight:block/tofu_metal_cooking_pot_bottom",
+    "side": "tofudelight:block/tofu_metal_cooking_pot_side",
+    "parts": "tofudelight:block/tofu_metal_cooking_pot_parts",
+    "bottom": "tofudelight:block/tofu_metal_cooking_pot_bottom"
   },
   "elements": [
     {
