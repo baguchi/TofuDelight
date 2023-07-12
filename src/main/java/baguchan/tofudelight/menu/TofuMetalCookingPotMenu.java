@@ -31,7 +31,7 @@ public class TofuMetalCookingPotMenu extends CookingPotMenu {
     private static CookingPotBlockEntity getTileEntity(Inventory playerInventory, FriendlyByteBuf data) {
         Objects.requireNonNull(playerInventory, "playerInventory cannot be null");
         Objects.requireNonNull(data, "data cannot be null");
-        BlockEntity tileAtPos = playerInventory.player.level.getBlockEntity(data.readBlockPos());
+        BlockEntity tileAtPos = playerInventory.player.level().getBlockEntity(data.readBlockPos());
         if (tileAtPos instanceof CookingPotBlockEntity) {
             return (CookingPotBlockEntity) tileAtPos;
         } else {
