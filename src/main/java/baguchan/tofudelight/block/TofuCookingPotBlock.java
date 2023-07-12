@@ -23,7 +23,7 @@ public class TofuCookingPotBlock extends CookingPotBlock {
         return ModBlockEntities.TOFU_METAL_COOKING_POT.get().create(pos, state);
     }
 
-    @javax.annotation.Nullable
+    @Nullable
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state, BlockEntityType<T> blockEntity) {
         return level.isClientSide ? createTickerHelper(blockEntity, (BlockEntityType) ModBlockEntities.TOFU_METAL_COOKING_POT.get(), CookingPotBlockEntity::animationTick) : createTickerHelper(blockEntity, (BlockEntityType) ModBlockEntities.TOFU_METAL_COOKING_POT.get(), CookingPotBlockEntity::cookingTick);
     }
