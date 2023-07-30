@@ -68,13 +68,7 @@ some TofuCraftReload Recipe Support and replace to farmer's delight recipe!
 [[dependencies.tofudelight]]
 modId = "farmersdelight"
 mandatory = true
-versionRange = "[1.2.0,)"
-ordering = "AFTER"
-side = "BOTH"
-[[dependencies.tofudelight]]
-modId = "farmersdelight"
-mandatory = true
-versionRange = "[1.2.0,)"
+versionRange = "[1.2.2,)"
 ordering = "AFTER"
 side = "BOTH"
 [[dependencies.tofudelight]]

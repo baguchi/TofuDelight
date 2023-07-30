@@ -24,7 +24,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: "org.spongepowered.mixin"
 
-version = '1.19.2-1.0.1'
+version = '1.19.2-1.1.0'
 group = 'baguchan.tofudelight' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'tofudelight'
 
@@ -143,7 +143,6 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
-    maven { url "https://maven.jaackson.me" }
     maven { url "https://www.cursemaven.com" }
     maven {
         // location of the maven that hosts JEI files before January 2023
@@ -176,8 +175,6 @@ dependencies {
 
     implementation fg.deobf("curse.maven:tofucraft-317469:${tofucraft_id}")
     implementation fg.deobf("curse.maven:farmers_delight-398521:${project.farmersDelight}")
-    implementation fg.deobf("com.teamabnormals:blueprint:${project.mc_version}-${project.blueprint}")
-    implementation fg.deobf("curse.maven:neapolitan-382016:${project.neapolitan}")
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
     // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}") // Adds the full JEI mod as a runtime dependency
