@@ -13,5 +13,9 @@ public class ModCreativeTabs {
         if (event.getTabKey() == TofuCreativeModeTabs.TOFU_BUILDING_BLOCKS.getKey()) {
             event.accept(ModBlocks.TOFU_METAL_COOKING_POT.get());
         }
+        if (event.getTabKey() == TofuCreativeModeTabs.TOFU_TOOLS.getKey()) {
+            event.accept(ModItems.TOFU_DIAMOND_KNIFE.get());
+            event.accept(ModItems.TOFU_METAL_KNIFE.get());
+        }
     }
 }
