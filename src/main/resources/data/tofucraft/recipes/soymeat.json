@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tofucraft:bottle_soyoil"
+    },
+    {
+      "tag": "forge:tofu"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "tag": "forge:dust/salt"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:soymeat"
+  }
+}

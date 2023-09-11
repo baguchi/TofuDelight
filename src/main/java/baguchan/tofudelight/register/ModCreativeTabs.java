@@ -17,5 +17,8 @@ public class ModCreativeTabs {
             event.accept(ModItems.TOFU_DIAMOND_KNIFE.get());
             event.accept(ModItems.TOFU_METAL_KNIFE.get());
         }
+        if (event.getTabKey() == TofuCreativeModeTabs.TOFU_FOODS.getKey()) {
+            event.accept(ModItems.COOKED_SOYMEAT.get());
+        }
     }
 }
