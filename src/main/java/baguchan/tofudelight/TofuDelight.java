@@ -1,9 +1,6 @@
 package baguchan.tofudelight;
 
-import baguchan.tofudelight.register.ModBlockEntities;
-import baguchan.tofudelight.register.ModBlocks;
-import baguchan.tofudelight.register.ModItems;
-import baguchan.tofudelight.register.ModMenus;
+import baguchan.tofudelight.register.*;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -27,6 +24,7 @@ public class TofuDelight
         modEventBus.addListener(this::clientSetup);
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
+        ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
         ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
         ModMenus.MENU_TYPES.register(modEventBus);
         // Register ourselves for server and other game events we are interested in

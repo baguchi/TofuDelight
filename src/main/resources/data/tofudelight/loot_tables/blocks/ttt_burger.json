@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "pool1",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tofudelight:ttt_burger"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "tofudelight:ttt_burger",
+          "properties": {
+            "servings": "2"
+          }
+        }
+      ]
+    }
+  ]
+}

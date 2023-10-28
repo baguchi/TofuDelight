@@ -1,7 +1,12 @@
 {
   "block.tofudelight.tofu_metal_cooking_pot": "Tofu Metal Cooking Pot",
+  "block.tofudelight.soy_gratin_pumpkin_block": "Soy Gratin Pumpkin Block",
+  "block.tofudelight.ttt_burger": "TTT Burger",
   "item.tofudelight.tofu_metal_knife": "Tofu Metal Knife",
   "item.tofudelight.tofu_diamond_knife": "Tofu Diamond Knife",
   "item.tofudelight.cooked_soymeat": "Cooked Soymeat",
-  "farmersdelight.container.tofu_metal_cooking_pot": "Tofu Metal Cooking Pot"
+  "item.tofudelight.soy_gratin_pumpkin": "Soy Gratin Pumpkin",
+  "item.tofudelight.ttt_burger_slice": "TTT Burger Slice",
+  "farmersdelight.container.tofu_metal_cooking_pot": "Tofu Metal Cooking Pot",
+  "itemGroup.tofudelight.main_tab": "Tofu Delight"
 }

@@ -1,7 +1,12 @@
 {
   "block.tofudelight.tofu_metal_cooking_pot": "鋼豆腐料理鍋",
+  "block.tofudelight.soy_gratin_pumpkin_block": "豆乳かぼちゃグラタンブロック",
+  "block.tofudelight.ttt_burger": "TTTバーガー",
   "item.tofudelight.tofu_metal_knife": "鋼豆腐のナイフ",
   "item.tofudelight.tofu_diamond_knife": "金剛豆腐のナイフ",
   "item.tofudelight.cooked_soymeat": "焼いたソイミート",
-  "farmersdelight.container.tofu_metal_cooking_pot": "鋼豆腐料理鍋"
+  "item.tofudelight.soy_gratin_pumpkin": "豆乳かぼちゃグラタン",
+  "item.tofudelight.ttt_burger_slice": "スライスされたTTTバーガー",
+  "farmersdelight.container.tofu_metal_cooking_pot": "鋼豆腐料理鍋",
+  "itemGroup.tofudelight.main_tab": "Tofu Delight"
 }

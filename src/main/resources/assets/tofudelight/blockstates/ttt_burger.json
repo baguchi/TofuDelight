@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "servings=0": {
+      "model": "tofudelight:block/ttt_burger_slice"
+    },
+    "servings=1": {
+      "model": "tofudelight:block/ttt_burger_slice"
+    },
+    "servings=2": {
+      "model": "tofudelight:block/ttt_burger"
+    }
+  }
+}

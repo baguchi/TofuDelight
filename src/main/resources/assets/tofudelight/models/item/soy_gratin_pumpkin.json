@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tofudelight:item/soy_gratin_pumpkin"
+  }
+}
