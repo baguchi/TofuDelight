@@ -20,13 +20,10 @@
     },
     {
       "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:bowl"
     }
   ],
   "result": {
-    "item": "tofucraft:tastystew"
+    "item": "tofucraft:tastybeefstew"
   },
   "container": {
     "item": "minecraft:bowl"
