@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:smithing_transform",
+  "type": "minecraft:smithing",
   "addition": {
     "item": "tofucraft:blocktofudiamond"
   },
@@ -8,8 +8,5 @@
   },
   "result": {
     "item": "tofudelight:tofu_diamond_knife"
-  },
-  "template": {
-    "item": "tofucraft:tofu_upgrade_smithing_template"
   }
 }

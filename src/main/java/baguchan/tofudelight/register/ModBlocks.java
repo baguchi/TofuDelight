@@ -7,6 +7,8 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -18,7 +20,7 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TofuDelight.MODID);
 
-    public static final RegistryObject<Block> TOFU_METAL_COOKING_POT = register("tofu_metal_cooking_pot", () -> new TofuCookingPotBlock());
+    public static final RegistryObject<Block> TOFU_METAL_COOKING_POT = register("tofu_metal_cooking_pot", () -> new TofuCookingPotBlock(Block.Properties.of(Material.METAL).strength(0.5F, 6.0F).sound(SoundType.LANTERN)));
 
     private static <T extends Block> RegistryObject<T> baseRegister(String name, Supplier<? extends T> block, Function<RegistryObject<T>, Supplier<? extends Item>> item) {
         RegistryObject<T> register = BLOCKS.register(name, block);
