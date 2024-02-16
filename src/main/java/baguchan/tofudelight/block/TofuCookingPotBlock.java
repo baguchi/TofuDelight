@@ -179,7 +179,6 @@ public class TofuCookingPotBlock extends BaseEntityBlock implements SimpleWaterl
     @Override
     @OnlyIn(Dist.CLIENT)
     public void appendHoverText(ItemStack stack, @Nullable BlockGetter level, List<Component> tooltip, TooltipFlag flagIn) {
-        super.appendHoverText(stack, level, tooltip, flagIn);
         CompoundTag nbt = stack.getTagElement("BlockEntityTag");
         ItemStack mealStack = CookingPotBlockEntity.getMealFromItem(stack);
 
