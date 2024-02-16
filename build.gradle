@@ -24,7 +24,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: "org.spongepowered.mixin"
 
-version = '1.20.1-2.4.1'
+version = '1.20.1-2.5.0'
 group = 'baguchan.tofudelight' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'tofudelight'
 
