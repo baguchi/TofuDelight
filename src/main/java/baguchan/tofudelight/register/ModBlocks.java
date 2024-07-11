@@ -1,6 +1,7 @@
 package baguchan.tofudelight.register;
 
 import baguchan.tofudelight.TofuDelight;
+import baguchan.tofudelight.block.SoyChocolateCakeBlock;
 import baguchan.tofudelight.block.TTTBurgerBlock;
 import baguchan.tofudelight.block.TofuCookingPotBlock;
 import net.minecraft.world.item.BlockItem;
@@ -27,6 +28,8 @@ public class ModBlocks {
             () -> new FeastBlock(Block.Properties.copy(Blocks.PUMPKIN), ModItems.GRATIN_PUMPKIN, false));
     public static final RegistryObject<Block> TTT_BURGER = register("ttt_burger",
             () -> new TTTBurgerBlock(Block.Properties.copy(Blocks.CAKE), ModItems.TTT_BURGER_SLICE, false));
+    public static final RegistryObject<Block> SOY_CHOCOLATE_CAKE_BLOCK = register("soy_chocolate_cake_block",
+            () -> new SoyChocolateCakeBlock(Block.Properties.copy(Blocks.CAKE), ModItems.SOY_CHOCOLATE_CAKE, false));
 
     private static <T extends Block> RegistryObject<T> baseRegister(String name, Supplier<? extends T> block, Function<RegistryObject<T>, Supplier<? extends Item>> item) {
         RegistryObject<T> register = BLOCKS.register(name, block);

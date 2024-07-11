@@ -24,6 +24,7 @@ public class ModCreativeTabs {
                 output.acceptAll(Stream.of(
                         ModItems.COOKED_SOYMEAT,
                         ModItems.GRATIN_PUMPKIN,
+                        ModItems.SOY_CHOCOLATE_CAKE,
                         ModItems.TTT_BURGER_SLICE,
                         ModItems.TOFU_METAL_KNIFE,
                         ModItems.TOFU_DIAMOND_KNIFE
@@ -33,6 +34,7 @@ public class ModCreativeTabs {
                 output.acceptAll(Stream.of(
                         ModBlocks.GRATIN_PUMPKIN_BLOCK,
                         ModBlocks.TTT_BURGER,
+                        ModBlocks.SOY_CHOCOLATE_CAKE_BLOCK,
                         ModBlocks.TOFU_METAL_COOKING_POT
                 ).map(sup -> {
                     return sup.get().asItem().getDefaultInstance();

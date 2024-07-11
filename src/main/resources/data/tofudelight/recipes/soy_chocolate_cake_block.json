@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "tofucraft:soy_chocolate"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "G": {
+      "item": "minecraft:sugar"
+    },
+    "X": {
+      "item": "farmersdelight:wheat_dough"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "GEG",
+    " X "
+  ],
+  "result": {
+    "item": "tofudelight:soy_chocolate_cake_block"
+  },
+  "show_notification": true
+}
