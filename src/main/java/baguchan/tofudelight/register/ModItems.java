@@ -19,6 +19,8 @@ public class ModItems {
     public static final RegistryObject<Item> COOKED_SOYMEAT = ITEMS.register("cooked_soymeat", () -> new Item(new Item.Properties().stacksTo(1).food(Foods.COOKED_PORKCHOP)));
     public static final RegistryObject<Item> GRATIN_PUMPKIN = ITEMS.register("soy_gratin_pumpkin",
             () -> new ConsumableItem(bowlFoodItem(ModFoods.GRATIN_PUMPKIN)));
+    public static final RegistryObject<Item> SOY_CHOCOLATE_CAKE = ITEMS.register("soy_chocolate_cake",
+            () -> new ConsumableItem(bowlFoodItem(ModFoods.SOY_CHOCOLATE_CAKE)));
     public static final RegistryObject<Item> TTT_BURGER_SLICE = ITEMS.register("ttt_burger_slice",
             () -> new ConsumableItem(new Item.Properties().food(ModFoods.TTT_BURGER)));
 }
