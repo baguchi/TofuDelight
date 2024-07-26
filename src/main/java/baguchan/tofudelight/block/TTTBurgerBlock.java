@@ -8,7 +8,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
-import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import vectorwing.farmersdelight.common.block.FeastBlock;
@@ -22,7 +21,7 @@ public class TTTBurgerBlock extends FeastBlock {
 
     public TTTBurgerBlock(Properties properties, Supplier<Item> servingItem, boolean hasLeftovers) {
         super(properties, servingItem, hasLeftovers);
-        this.registerDefaultState((BlockState) ((BlockState) ((BlockState) this.stateDefinition.any()).setValue(FACING, Direction.NORTH)).setValue(this.getServingsProperty(), this.getMaxServings()));
+        this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(this.getServingsProperty(), this.getMaxServings()));
 
     }
 
@@ -32,11 +31,11 @@ public class TTTBurgerBlock extends FeastBlock {
     }
 
     public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        return SHAPES[(Integer) state.getValue(SERVINGS)];
+        return SHAPES[state.getValue(SERVINGS)];
     }
 
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(new Property[]{FACING, SERVINGS});
+        builder.add(FACING, SERVINGS);
     }
 
     public int getMaxServings() {

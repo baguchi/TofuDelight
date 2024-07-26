@@ -1,5 +1,6 @@
 {
   "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
   "ingredients": [
     {
       "item": "tofucraft:bottle_dashi"
@@ -9,7 +10,8 @@
     }
   ],
   "result": {
-    "item": "tofucraft:tofuegg"
+    "count": 1,
+    "id": "tofucraft:tofuegg"
   },
   "experience": 0.1,
   "cookingtime": 100

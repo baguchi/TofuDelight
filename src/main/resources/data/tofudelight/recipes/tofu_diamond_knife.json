@@ -10,6 +10,7 @@
     "item": "tofudelight:tofu_diamond_knife"
   },
   "template": {
-    "item": "tofucraft:tofu_upgrade_smithing_template"
+    "count": 1,
+    "id": "tofucraft:tofu_upgrade_smithing_template"
   }
 }

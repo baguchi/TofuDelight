@@ -1,5 +1,6 @@
 {
   "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
   "ingredients": [
     {
       "item": "tofucraft:starch"
@@ -17,7 +18,8 @@
     ]
   ],
   "result": {
-    "item": "tofucraft:tofufried_pouch"
+    "count": 1,
+    "id": "tofucraft:tofufried_pouch"
   },
   "experience": 0.1,
   "cookingtime": 100

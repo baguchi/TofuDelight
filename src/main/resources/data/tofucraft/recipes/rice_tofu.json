@@ -1,5 +1,6 @@
 {
   "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
   "ingredients": [
     {
       "item": "farmersdelight:cooked_rice"
@@ -14,7 +15,8 @@
     ]
   ],
   "result": {
-    "item": "tofucraft:ricetofu"
+    "count": 1,
+    "id": "tofucraft:ricetofu"
   },
   "experience": 0.1,
   "cookingtime": 100

@@ -1,5 +1,6 @@
 {
   "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
   "ingredients": [
     {
       "item": "minecraft:egg"
@@ -8,17 +9,15 @@
       "item": "tofucraft:gelatin"
     },
     {
-      "tag": "forge:milk/soy_milk"
+      "tag": "c:milk/soy_milk"
     },
     {
       "item": "minecraft:sugar"
     }
   ],
   "result": {
-    "item": "tofucraft:pudding"
-  },
-  "container": {
-    "item": "tofucraft:glassbowl"
+    "count": 1,
+    "id": "tofucraft:pudding"
   },
   "experience": 0.1,
   "cookingtime": 100

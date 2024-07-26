@@ -1,5 +1,6 @@
 {
   "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
   "ingredients": [
     [
       {
@@ -17,10 +18,8 @@
     }
   ],
   "result": {
-    "item": "tofucraft:misosoup"
-  },
-  "container": {
-    "item": "minecraft:bowl"
+    "count": 1,
+    "id": "tofucraft:misosoup"
   },
   "experience": 0.1,
   "cookingtime": 100

@@ -1,11 +1,12 @@
 {
   "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
   "ingredients": [
     {
-      "tag": "forge:milk/soy_milk"
+      "tag": "c:milk/soy_milk"
     },
     {
-      "tag": "forge:eggs"
+      "tag": "c:eggs"
     },
     {
       "item": "minecraft:sugar"
@@ -18,7 +19,8 @@
     }
   ],
   "result": {
-    "item": "tofucraft:steamed_bread"
+    "count": 1,
+    "id": "tofucraft:steamed_bread"
   },
   "experience": 0.1,
   "cookingtime": 100

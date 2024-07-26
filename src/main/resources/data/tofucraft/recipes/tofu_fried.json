@@ -1,5 +1,6 @@
 {
   "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
   "ingredients": [
     [
       {
@@ -14,7 +15,8 @@
     }
   ],
   "result": {
-    "item": "tofucraft:tofufried"
+    "count": 1,
+    "id": "tofucraft:tofufried"
   },
   "experience": 0.1,
   "cookingtime": 100

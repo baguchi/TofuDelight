@@ -1,18 +1,17 @@
 {
   "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
   "ingredients": [
     {
-      "tag": "forge:crops/rice"
+      "tag": "c:crops/rice"
     },
     {
       "item": "tofucraft:edamame"
     }
   ],
   "result": {
-    "item": "tofucraft:edamame_rice"
-  },
-  "container": {
-    "item": "minecraft:bowl"
+    "count": 1,
+    "id": "tofucraft:edamame_rice"
   },
   "experience": 0.1,
   "cookingtime": 100

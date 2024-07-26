@@ -6,7 +6,7 @@
       "item": "tofucraft:blocktofumetal"
     },
     "X": {
-      "tag": "forge:rods/wooden"
+      "tag": "c:rods/wooden"
     }
   },
   "pattern": [
@@ -14,7 +14,8 @@
     "X"
   ],
   "result": {
-    "item": "tofudelight:tofu_metal_knife"
+    "count": 1,
+    "id": "tofudelight:tofu_metal_knife"
   },
   "show_notification": true
 }

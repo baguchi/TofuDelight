@@ -1,5 +1,6 @@
 {
   "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
   "container": {
     "item": "minecraft:pumpkin"
   },
@@ -7,7 +8,7 @@
   "experience": 2.0,
   "ingredients": [
     {
-      "tag": "forge:crops/onion"
+      "tag": "c:crops/onion"
     },
     {
       "item": "minecraft:brown_mushroom"
@@ -16,7 +17,7 @@
       "item": "minecraft:potato"
     },
     {
-      "tag": "forge:soy_milk"
+      "tag": "c:soy_milk"
     },
     {
       "item": "tofucraft:soy_cheese"
@@ -24,6 +25,7 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "tofudelight:soy_gratin_pumpkin_block"
+    "count": 1,
+    "id": "tofudelight:soy_gratin_pumpkin_block"
   }
 }

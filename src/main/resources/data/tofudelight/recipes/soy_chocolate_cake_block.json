@@ -21,7 +21,8 @@
     " X "
   ],
   "result": {
-    "item": "tofudelight:soy_chocolate_cake_block"
+    "count": 1,
+    "id": "tofudelight:soy_chocolate_cake_block"
   },
   "show_notification": true
 }

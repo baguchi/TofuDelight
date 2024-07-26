@@ -1,5 +1,6 @@
 {
   "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
   "ingredients": [
     [ {
       "item": "minecraft:brown_mushroom"
@@ -22,7 +23,7 @@
       }
     ],
     {
-      "tag": "forge:dust/salt"
+      "tag": "c:dust/salt"
     },
     {
       "item": "minecraft:milk_bucket"
@@ -32,10 +33,8 @@
     }
   ],
   "result": {
-    "item": "tofucraft:tastystew"
-  },
-  "container": {
-    "item": "minecraft:bowl"
+    "count": 1,
+    "id": "tofucraft:tastystew"
   },
   "experience": 0.1,
   "cookingtime": 100

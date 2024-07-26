@@ -1,5 +1,6 @@
 {
   "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
   "ingredients": [
     {
       "item": "tofucraft:tofuhell"
@@ -21,10 +22,8 @@
     }
   ],
   "result": {
-    "item": "tofucraft:hell_red_soup"
-  },
-  "container": {
-    "item": "minecraft:bowl"
+    "count": 1,
+    "id": "tofucraft:hell_red_soup"
   },
   "experience": 0.1,
   "cookingtime": 100

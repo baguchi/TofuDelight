@@ -6,16 +6,17 @@
       "item": "tofucraft:bottle_soyoil"
     },
     {
-      "tag": "forge:tofu"
+      "tag": "c:tofu"
     },
     {
       "item": "minecraft:wheat"
     },
     {
-      "tag": "forge:dust/salt"
+      "tag": "c:dust/salt"
     }
   ],
   "result": {
-    "item": "tofucraft:soymeat"
+    "count": 1,
+    "id": "tofucraft:soymeat"
   }
 }

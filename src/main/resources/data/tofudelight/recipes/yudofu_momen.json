@@ -3,12 +3,12 @@
   "recipe_book_tab": "misc",
   "ingredients": [
     {
-      "item": "farmersdelight:cooked_rice"
+      "item": "tofucraft:tofumomen"
     }
   ],
   "result": {
-    "count": 2,
-    "id": "tofucraft:onigiri"
+    "count": 1,
+    "id": "tofucraft:yudofu"
   },
   "experience": 0.1,
   "cookingtime": 100

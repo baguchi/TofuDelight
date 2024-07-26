@@ -1,5 +1,5 @@
 {
-  "type": "farmersdelight:cooking",
+  "tag": "c:
   "ingredients": [
     {
       "item": "tofucraft:seeds_soybeans_nether"
@@ -12,10 +12,8 @@
     }
   ],
   "result": {
-    "item": "tofucraft:crimson_soup"
-  },
-  "container": {
-    "item": "minecraft:bowl"
+    "count": 1,
+    "id": "tofucraft:crimson_soup"
   },
   "experience": 0.1,
   "cookingtime": 100

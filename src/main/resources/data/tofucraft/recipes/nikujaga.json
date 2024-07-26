@@ -1,5 +1,6 @@
 {
   "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
   "ingredients": [
     {
       "item": "tofucraft:bottle_soysause"
@@ -21,10 +22,8 @@
     }
   ],
   "result": {
-    "item": "tofucraft:nikujaga"
-  },
-  "container": {
-    "item": "minecraft:bowl"
+    "count": 1,
+    "id": "tofucraft:nikujaga"
   },
   "experience": 0.1,
   "cookingtime": 100

@@ -15,7 +15,8 @@
     "XXX"
   ],
   "result": {
-    "item": "tofudelight:ttt_burger"
+    "count": 1,
+    "id": "tofudelight:ttt_burger"
   },
   "show_notification": true
 }
