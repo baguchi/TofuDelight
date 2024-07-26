@@ -2,16 +2,11 @@
   "type": "farmersdelight:cooking",
   "recipe_book_tab": "misc",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:brown_mushroom"
-      },
-      {
-        "item": "minecraft:red_mushroom"
-      }
-    ],
     {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "tag": "c:foods/cooked_chicken"
     },
     {
       "tag": "c:dust/salt"
@@ -25,7 +20,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "tofucraft:tastybeefstew"
+    "id": "tofucraft:tastystew"
   },
   "experience": 0.1,
   "cookingtime": 100

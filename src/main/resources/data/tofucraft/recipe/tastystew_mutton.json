@@ -2,26 +2,12 @@
   "type": "farmersdelight:cooking",
   "recipe_book_tab": "misc",
   "ingredients": [
-    [ {
+    {
       "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:red_mushroom"
-    }],
-    [
-      {
-        "item": "minecraft:cooked_chicken"
-      },
-      {
-        "item": "minecraft:cooked_mutton"
-      },
-      {
-        "item": "minecraft:cooked_porkchop"
-      },
-      {
-        "item": "minecraft:cooked_rabbit"
-      }
-    ],
+      "tag": "c:foods/cooked_mutton"
+    },
     {
       "tag": "c:dust/salt"
     },

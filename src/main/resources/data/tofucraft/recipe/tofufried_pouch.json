@@ -8,14 +8,9 @@
     {
       "item": "tofucraft:bottle_soyoil"
     },
-    [
-      {
-        "item": "tofucraft:tofukinu"
-      },
-      {
-        "item": "tofucraft:tofumomen"
-      }
-    ]
+    {
+      "item": "tofucraft:tofumomen"
+    }
   ],
   "result": {
     "count": 1,

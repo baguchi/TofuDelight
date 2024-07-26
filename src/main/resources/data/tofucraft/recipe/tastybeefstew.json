@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {
+        "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "tag": "c:dust/salt"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tofucraft:tastybeefstew"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

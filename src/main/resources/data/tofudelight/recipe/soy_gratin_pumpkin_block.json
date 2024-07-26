@@ -2,7 +2,7 @@
   "type": "farmersdelight:cooking",
   "recipe_book_tab": "misc",
   "container": {
-    "item": "minecraft:pumpkin"
+    "id": "minecraft:pumpkin"
   },
   "cookingtime": 400,
   "experience": 2.0,
@@ -23,7 +23,6 @@
       "item": "tofucraft:soy_cheese"
     }
   ],
-  "recipe_book_tab": "meals",
   "result": {
     "count": 1,
     "id": "tofudelight:soy_gratin_pumpkin_block"

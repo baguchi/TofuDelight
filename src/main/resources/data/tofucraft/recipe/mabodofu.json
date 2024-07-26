@@ -2,14 +2,9 @@
   "type": "farmersdelight:cooking",
   "recipe_book_tab": "misc",
   "ingredients": [
-    [
-      {
-        "item": "tofucraft:tofukinu"
-      },
-      {
+    {
         "item": "tofucraft:tofumomen"
-      }
-    ],
+    },
     {
       "item": "tofucraft:starch"
     },

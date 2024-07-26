@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {
+      "tag": "c:raw_fishes"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tofucraft:bottle_dashi"
+  },
+  "container": {
+    "id": "minecraft:glass_bottle"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

@@ -5,14 +5,9 @@
     {
       "item": "farmersdelight:cooked_rice"
     },
-    [
-      {
-        "item": "tofucraft:tofukinu"
-      },
-      {
-        "item": "tofucraft:tofumomen"
-      }
-    ]
+    {
+      "item": "tofucraft:tofumomen"
+    }
   ],
   "result": {
     "count": 1,
