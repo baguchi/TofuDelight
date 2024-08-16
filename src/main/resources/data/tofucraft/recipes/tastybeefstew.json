@@ -13,10 +13,10 @@
       "item": "minecraft:cooked_beef"
     },
     {
-      "tag": "forge:dust/salt"
+      "tag": "forge:dusts/salt"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "tag": "forge:milk/milk"
     },
     {
       "item": "minecraft:wheat"
