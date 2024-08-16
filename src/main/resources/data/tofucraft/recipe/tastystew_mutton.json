@@ -9,10 +9,10 @@
       "tag": "c:foods/cooked_mutton"
     },
     {
-      "tag": "c:dust/salt"
+      "tag": "c:dusts/salt"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "tag": "c:foods/milk"
     },
     {
       "item": "minecraft:wheat"
