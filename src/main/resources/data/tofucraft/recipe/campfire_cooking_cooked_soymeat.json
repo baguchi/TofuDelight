@@ -2,7 +2,7 @@
   "type": "minecraft:campfire_cooking",
   "category": "food",
   "cookingtime": 600,
-  "experience": 0.1,
+  "experience": 1,
   "ingredient": {
     "item": "tofucraft:soymeat"
   },
