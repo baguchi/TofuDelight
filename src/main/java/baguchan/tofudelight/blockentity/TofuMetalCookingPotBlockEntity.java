@@ -21,6 +21,12 @@ public class TofuMetalCookingPotBlockEntity extends CookingPotBlockEntity {
     }
 
     @Override
+    public boolean isValidBlockState(BlockState p_353131_) {
+        return ModBlockEntities.TOFU_METAL_COOKING_POT.value().isValid(p_353131_);
+    }
+
+
+    @Override
     public BlockEntityType<?> getType() {
         return ModBlockEntities.TOFU_METAL_COOKING_POT.value();
     }
