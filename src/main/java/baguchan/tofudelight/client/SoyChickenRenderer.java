@@ -26,6 +26,9 @@ public class SoyChickenRenderer implements BlockEntityRenderer<SoyChickenBlockEn
     public void render(SoyChickenBlockEntity pBlockEntity, float pPartialTick, PoseStack pPoseStack, MultiBufferSource pBufferSource, int pPackedLight, int pPackedOverlay) {
         float f = ((Direction) pBlockEntity.getBlockState().getValue(SoyChickenBlock.FACING)).getOpposite().toYRot();
         int i = pBlockEntity.getBlockState().getValue(SoyChickenBlock.SERVINGS);
+
+        soyChickenModel.lava_leg_l.visible = i >= 3;
+        soyChickenModel.lava_leg_r.visible = i >= 2;
         pPoseStack.pushPose();
         pPoseStack.scale(-1.0F, -1.0F, 1.0F);
         pPoseStack.translate(0.0F, -1.501F, 0.0F);

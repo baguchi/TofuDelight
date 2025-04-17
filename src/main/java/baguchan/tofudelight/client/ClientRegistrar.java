@@ -38,6 +38,6 @@ public class ClientRegistrar {
             public BlockEntityWithoutLevelRenderer getCustomRenderer() {
                 return new SoyChickenCustomRender();
             }
-        }, ModBlocks.SOY_CHICKEN.get());
+        }, ModBlocks.SOY_CHICKEN.get().asItem());
     }
 }

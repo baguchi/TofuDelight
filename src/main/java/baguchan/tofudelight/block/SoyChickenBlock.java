@@ -24,8 +24,8 @@ import java.util.function.Supplier;
 public class SoyChickenBlock extends FeastBlock implements EntityBlock {
     protected static final VoxelShape SHAPE = Block.box(4, 0, 4, 12, 7, 14);
 
-    public static final VoxelShape SHAPE_NORTHSOUTH = Block.box(4, 0, 4, 12, 7, 14);
-    public static final VoxelShape SHAPE_EASTWEST = Block.box(3.0, 0.0, 5.0, 13.0, 7.0, 13.0);
+    public static final VoxelShape SHAPE_NORTHSOUTH = Block.box(4, 0, 3, 12, 7, 13);
+    public static final VoxelShape SHAPE_EASTWEST = Block.box(3.0, 0.0, 4.0, 13.0, 7.0, 12.0);
     private static final Map<Direction, VoxelShape> AABBS = Maps.newEnumMap(
             ImmutableMap.of(Direction.NORTH, SHAPE_NORTHSOUTH, Direction.SOUTH, SHAPE_NORTHSOUTH, Direction.EAST, SHAPE_EASTWEST, Direction.WEST, SHAPE_EASTWEST)
     );
