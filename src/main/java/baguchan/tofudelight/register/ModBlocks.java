@@ -1,10 +1,10 @@
 package baguchan.tofudelight.register;
 
 import baguchan.tofudelight.TofuDelight;
+import baguchan.tofudelight.block.SoyChickenBlock;
 import baguchan.tofudelight.block.SoyChocolateCakeBlock;
 import baguchan.tofudelight.block.TTTBurgerBlock;
 import baguchan.tofudelight.block.TofuCookingPotBlock;
-import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -31,6 +31,8 @@ public class ModBlocks {
             () -> new TTTBurgerBlock(Block.Properties.ofFullCopy(Blocks.CAKE), ModItems.TTT_BURGER_SLICE, false));
     public static final DeferredHolder<Block, Block> SOY_CHOCOLATE_CAKE_BLOCK = register("soy_chocolate_cake_block",
             () -> new SoyChocolateCakeBlock(Block.Properties.ofFullCopy(Blocks.CAKE), ModItems.SOY_CHOCOLATE_CAKE, false));
+    public static final DeferredHolder<Block, Block> SOY_CHICKEN = register("soy_chicken",
+            () -> new SoyChickenBlock(Block.Properties.ofFullCopy(Blocks.CAKE), ModItems.SOY_CHICKEN_PIECE, false));
 
     private static <T extends Block> DeferredHolder<Block, T> baseRegister(String name, Supplier<? extends T> block, Function<DeferredHolder<Block, T>, Supplier<? extends Item>> item) {
         DeferredHolder<Block, T> register = BLOCKS.register(name, block);
@@ -49,6 +51,9 @@ public class ModBlocks {
 
     private static <T extends Block> Supplier<BlockItem> registerBlockItem(final DeferredHolder<Block, T> block) {
         return () -> {
+            if (Objects.requireNonNull(block.get()) instanceof SoyChickenBlock) {
+                return new BlockItem(Objects.requireNonNull(block.get()), new Item.Properties().stacksTo(1));
+            } else
             if (Objects.requireNonNull(block.get()) instanceof FeastBlock) {
                 return new BlockItem(Objects.requireNonNull(block.get()), new Item.Properties().stacksTo(1));
             }

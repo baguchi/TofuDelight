@@ -6,7 +6,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.stream.Stream;
@@ -25,6 +24,7 @@ public class ModCreativeTabs {
                         ModItems.GRATIN_PUMPKIN,
                         ModItems.SOY_CHOCOLATE_CAKE,
                         ModItems.TTT_BURGER_SLICE,
+                        ModItems.SOY_CHICKEN_PIECE,
                         ModItems.TOFU_METAL_KNIFE,
                         ModItems.TOFU_DIAMOND_KNIFE
                 ).map(sup -> {
@@ -34,6 +34,7 @@ public class ModCreativeTabs {
                         ModBlocks.GRATIN_PUMPKIN_BLOCK,
                         ModBlocks.TTT_BURGER,
                         ModBlocks.SOY_CHOCOLATE_CAKE_BLOCK,
+                        ModBlocks.SOY_CHICKEN,
                         ModBlocks.TOFU_METAL_COOKING_POT
                 ).map(sup -> {
                     return sup.get().asItem().getDefaultInstance();

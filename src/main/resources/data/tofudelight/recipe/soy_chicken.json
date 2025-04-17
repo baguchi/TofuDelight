@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "tofucraft:chili"
+    },
+    "I": {
+      "item": "tofucraft:tofuishi"
+    },
+    "X": {
+      "item": "tofudelight:cooked_soymeat"
+    }
+  },
+  "pattern": [
+    " # ",
+    "IXI",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tofudelight:ttt_burger"
+  },
+  "show_notification": true
+}

@@ -25,7 +25,8 @@ public class ModItems {
             () -> new ConsumableItem(bowlFoodItem(ModFoods.SOY_CHOCOLATE_CAKE)));
     public static final DeferredHolder<Item, Item> TTT_BURGER_SLICE = ITEMS.register("ttt_burger_slice",
             () -> new ConsumableItem(new Item.Properties().food(ModFoods.TTT_BURGER)));
-
+    public static final DeferredHolder<Item, Item> SOY_CHICKEN_PIECE = ITEMS.register("soy_chicken_piece",
+            () -> new ConsumableItem(new Item.Properties().food(ModFoods.SOY_CHICKEN)));
 
     public static Item.Properties knifeItem(Tier tier) {
         return new Item.Properties().attributes(KnifeItem.createAttributes(tier, 0.5F, -2.0F));
