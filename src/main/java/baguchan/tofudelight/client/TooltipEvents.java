@@ -37,9 +37,9 @@ public class TooltipEvents {
 
                     MutableComponent effectText;
 
-                    effectText = Component.translatable(soymilkBottleItem.getEffect().value().getDescriptionId()).withStyle(soymilkBottleItem.getEffect().value().getCategory().getTooltipFormatting());
+                 /*   effectText = Component.translatable(soymilkBottleItem.getEffect().value().getDescriptionId()).withStyle(soymilkBottleItem.getEffect().value().getCategory().getTooltipFormatting());
                     tooltip.add(effectText);
-
+*/
                     Component component2 = Component.translatable("item.tofudelight.soymilk.when_drank_more").withStyle(ChatFormatting.DARK_PURPLE);
 
                     Component effectText2 = Component.translatable(soymilkBottleItem.getSecondEffect().value().getDescriptionId()).withStyle(soymilkBottleItem.getSecondEffect().value().getCategory().getTooltipFormatting());
