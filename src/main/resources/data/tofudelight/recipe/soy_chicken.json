@@ -13,13 +13,12 @@
     }
   },
   "pattern": [
-    " # ",
-    "IXI",
+    "I#I",
     "XXX"
   ],
   "result": {
     "count": 1,
-    "id": "tofudelight:ttt_burger"
+    "id": "tofudelight:soy_chicken"
   },
   "show_notification": true
 }

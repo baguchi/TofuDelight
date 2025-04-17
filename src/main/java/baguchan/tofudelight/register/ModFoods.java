@@ -2,6 +2,7 @@ package baguchan.tofudelight.register;
 
 import baguchan.tofucraft.registry.TofuEffects;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 
@@ -10,7 +11,7 @@ public class ModFoods {
     public static final FoodProperties SOY_CHOCOLATE_CAKE = stew(4).effect(new MobEffectInstance(TofuEffects.SOY_HEALTHY, 600), 1F).build();
 
     public static final FoodProperties TTT_BURGER = (new FoodProperties.Builder()).nutrition(7).saturationModifier(0.65F).build();
-    public static final FoodProperties SOY_CHICKEN = (new FoodProperties.Builder()).nutrition(3).saturationModifier(0.8F).effect(new MobEffectInstance(TofuEffects.COUGH, 1200), 1F).fast().build();
+    public static final FoodProperties SOY_CHICKEN = (new FoodProperties.Builder()).nutrition(3).saturationModifier(0.8F).effect(new MobEffectInstance(TofuEffects.COUGH, 1200), 1F).effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1200), 1).fast().build();
 
     private static FoodProperties.Builder stew(int p_150384_) {
         return (new FoodProperties.Builder()).nutrition(p_150384_).saturationModifier(0.6F);

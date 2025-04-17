@@ -2,6 +2,7 @@ package baguchan.tofudelight.register;
 
 import baguchan.tofucraft.registry.TofuItemTier;
 import baguchan.tofudelight.TofuDelight;
+import baguchan.tofudelight.item.SoyChickenItem;
 import baguchan.tofudelight.item.TofuKnifeItem;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.food.Foods;
@@ -20,13 +21,13 @@ public class ModItems {
     public static final DeferredHolder<Item, Item> TOFU_DIAMOND_KNIFE = ITEMS.register("tofu_diamond_knife", () -> new TofuKnifeItem(TofuItemTier.TOFUDIAMOND, knifeItem(TofuItemTier.TOFUDIAMOND).stacksTo(1)));
     public static final DeferredHolder<Item, Item> COOKED_SOYMEAT = ITEMS.register("cooked_soymeat", () -> new Item(new Item.Properties().food(Foods.COOKED_PORKCHOP)));
     public static final DeferredHolder<Item, Item> GRATIN_PUMPKIN = ITEMS.register("soy_gratin_pumpkin",
-            () -> new ConsumableItem(bowlFoodItem(ModFoods.GRATIN_PUMPKIN)));
+            () -> new ConsumableItem(bowlFoodItem(ModFoods.GRATIN_PUMPKIN), true));
     public static final DeferredHolder<Item, Item> SOY_CHOCOLATE_CAKE = ITEMS.register("soy_chocolate_cake",
-            () -> new ConsumableItem(bowlFoodItem(ModFoods.SOY_CHOCOLATE_CAKE)));
+            () -> new ConsumableItem(bowlFoodItem(ModFoods.SOY_CHOCOLATE_CAKE), true));
     public static final DeferredHolder<Item, Item> TTT_BURGER_SLICE = ITEMS.register("ttt_burger_slice",
-            () -> new ConsumableItem(new Item.Properties().food(ModFoods.TTT_BURGER)));
+            () -> new ConsumableItem(new Item.Properties().food(ModFoods.TTT_BURGER), true));
     public static final DeferredHolder<Item, Item> SOY_CHICKEN_PIECE = ITEMS.register("soy_chicken_piece",
-            () -> new ConsumableItem(new Item.Properties().food(ModFoods.SOY_CHICKEN)));
+            () -> new SoyChickenItem(new Item.Properties().food(ModFoods.SOY_CHICKEN)));
 
     public static Item.Properties knifeItem(Tier tier) {
         return new Item.Properties().attributes(KnifeItem.createAttributes(tier, 0.5F, -2.0F));
