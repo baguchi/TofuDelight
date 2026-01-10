@@ -10,9 +10,13 @@
     },
     "X": {
       "item": "tofudelight:cooked_soymeat"
+    },
+    "S": {
+      "tag": "c:dusts/salt"
     }
   },
   "pattern": [
+    "SSS",
     "I#I",
     "XXX"
   ],
