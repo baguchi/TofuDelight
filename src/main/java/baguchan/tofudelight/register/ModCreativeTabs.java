@@ -25,6 +25,7 @@ public class ModCreativeTabs {
                         ModItems.SOY_CHOCOLATE_CAKE,
                         ModItems.TTT_BURGER_SLICE,
                         ModItems.SOY_CHICKEN_PIECE,
+                        ModItems.KINAKO_RICE_BREAD,
                         ModItems.RICE_BREAD,
                         ModItems.RICE_DOUGH,
                         ModItems.TOFU_METAL_KNIFE,

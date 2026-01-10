@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tofucraft:kinako"
+    },
+    {
+      "item": "tofudelight:rice_bread"
+    },
+    {
+      "item": "tofudelight:rice_bread"
+    },
+    {
+      "item": "tofudelight:rice_bread"
+    },
+    {
+      "item": "tofucraft:bottle_soyoil"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "tofudelight:kinako_rice_bread"
+  }
+}

@@ -1,5 +1,6 @@
 package baguchan.tofudelight.register;
 
+import baguchan.tofucraft.registry.TofuFoods;
 import baguchan.tofucraft.registry.TofuItemTier;
 import baguchan.tofudelight.TofuDelight;
 import baguchan.tofudelight.item.SoyChickenItem;
@@ -29,6 +30,7 @@ public class ModItems {
             () -> new ConsumableItem(new Item.Properties().food(ModFoods.TTT_BURGER), true));
     public static final DeferredHolder<Item, Item> SOY_CHICKEN_PIECE = ITEMS.register("soy_chicken_piece",
             () -> new SoyChickenItem(new Item.Properties().food(ModFoods.SOY_CHICKEN)));
+    public static final DeferredHolder<Item, Item> KINAKO_RICE_BREAD = ITEMS.register("kinako_rice_bread", () -> new Item(new Item.Properties().food(TofuFoods.KINAKO_BREAD)));
     public static final DeferredHolder<Item, Item> RICE_BREAD = ITEMS.register("rice_bread", () -> new Item(new Item.Properties().food(Foods.BREAD)));
     public static final DeferredHolder<Item, Item> RICE_DOUGH = ITEMS.register("rice_dough", () -> new Item(new Item.Properties().food(FoodValues.WHEAT_DOUGH)));
 
