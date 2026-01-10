@@ -10,6 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Tier;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import vectorwing.farmersdelight.common.FoodValues;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.KnifeItem;
 
@@ -28,6 +29,8 @@ public class ModItems {
             () -> new ConsumableItem(new Item.Properties().food(ModFoods.TTT_BURGER), true));
     public static final DeferredHolder<Item, Item> SOY_CHICKEN_PIECE = ITEMS.register("soy_chicken_piece",
             () -> new SoyChickenItem(new Item.Properties().food(ModFoods.SOY_CHICKEN)));
+    public static final DeferredHolder<Item, Item> RICE_BREAD = ITEMS.register("rice_bread", () -> new Item(new Item.Properties().food(Foods.BREAD)));
+    public static final DeferredHolder<Item, Item> RICE_DOUGH = ITEMS.register("rice_dough", () -> new Item(new Item.Properties().food(FoodValues.WHEAT_DOUGH)));
 
     public static Item.Properties knifeItem(Tier tier) {
         return new Item.Properties().attributes(KnifeItem.createAttributes(tier, 0.5F, -2.0F));

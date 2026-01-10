@@ -25,6 +25,8 @@ public class ModCreativeTabs {
                         ModItems.SOY_CHOCOLATE_CAKE,
                         ModItems.TTT_BURGER_SLICE,
                         ModItems.SOY_CHICKEN_PIECE,
+                        ModItems.RICE_BREAD,
+                        ModItems.RICE_DOUGH,
                         ModItems.TOFU_METAL_KNIFE,
                         ModItems.TOFU_DIAMOND_KNIFE
                 ).map(sup -> {
