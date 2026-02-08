@@ -6,16 +6,16 @@ import baguchan.tofudelight.TofuDelight;
 import baguchan.tofudelight.item.SoyChickenItem;
 import baguchan.tofudelight.item.TofuKnifeItem;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import vectorwing.farmersdelight.common.FoodValues;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.KnifeItem;
-
-import static vectorwing.farmersdelight.common.registry.ModItems.bowlFoodItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(BuiltInRegistries.ITEM, TofuDelight.MODID);
@@ -33,8 +33,14 @@ public class ModItems {
     public static final DeferredHolder<Item, Item> KINAKO_RICE_BREAD = ITEMS.register("kinako_rice_bread", () -> new Item(new Item.Properties().food(TofuFoods.KINAKO_BREAD)));
     public static final DeferredHolder<Item, Item> RICE_BREAD = ITEMS.register("rice_bread", () -> new Item(new Item.Properties().food(Foods.BREAD)));
     public static final DeferredHolder<Item, Item> RICE_DOUGH = ITEMS.register("rice_dough", () -> new Item(new Item.Properties().food(FoodValues.WHEAT_DOUGH)));
+    public static final DeferredHolder<Item, Item> SOY_VEGETABLE_NOODLE = ITEMS.register("soy_vegetable_noodle", () -> new ConsumableItem(bowlFoodItem(ModFoods.SOY_VEGETABLE_NOODLE), true));
+    public static final DeferredHolder<Item, Item> SOY_DANDAN_NOODLE = ITEMS.register("soy_dandan_noodle", () -> new ConsumableItem(bowlFoodItem(ModFoods.SOY_VEGETABLE_NOODLE), true));
 
     public static Item.Properties knifeItem(Tier tier) {
         return new Item.Properties().attributes(KnifeItem.createAttributes(tier, 0.5F, -2.0F));
+    }
+
+    public static Item.Properties bowlFoodItem(FoodProperties food) {
+        return (new Item.Properties()).food(food).craftRemainder(Items.BOWL).stacksTo(16);
     }
 }

@@ -28,6 +28,8 @@ public class ModCreativeTabs {
                         ModItems.KINAKO_RICE_BREAD,
                         ModItems.RICE_BREAD,
                         ModItems.RICE_DOUGH,
+                        ModItems.SOY_VEGETABLE_NOODLE,
+                        ModItems.SOY_DANDAN_NOODLE,
                         ModItems.TOFU_METAL_KNIFE,
                         ModItems.TOFU_DIAMOND_KNIFE
                 ).map(sup -> {
