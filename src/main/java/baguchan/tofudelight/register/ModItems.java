@@ -34,7 +34,7 @@ public class ModItems {
     public static final DeferredHolder<Item, Item> RICE_BREAD = ITEMS.register("rice_bread", () -> new Item(new Item.Properties().food(Foods.BREAD)));
     public static final DeferredHolder<Item, Item> RICE_DOUGH = ITEMS.register("rice_dough", () -> new Item(new Item.Properties().food(FoodValues.WHEAT_DOUGH)));
     public static final DeferredHolder<Item, Item> SOY_VEGETABLE_NOODLE = ITEMS.register("soy_vegetable_noodle", () -> new ConsumableItem(bowlFoodItem(ModFoods.SOY_VEGETABLE_NOODLE), true));
-    public static final DeferredHolder<Item, Item> SOY_DANDAN_NOODLE = ITEMS.register("soy_dandan_noodle", () -> new ConsumableItem(bowlFoodItem(ModFoods.SOY_VEGETABLE_NOODLE), true));
+    public static final DeferredHolder<Item, Item> SOY_DANDAN_NOODLE = ITEMS.register("soy_dandan_noodle", () -> new ConsumableItem(bowlFoodItem(ModFoods.SOY_DANDAN_NOODLE), true));
 
     public static Item.Properties knifeItem(Tier tier) {
         return new Item.Properties().attributes(KnifeItem.createAttributes(tier, 0.5F, -2.0F));
