@@ -1,11 +1,11 @@
 {
-  "block.tofudelight.tofu_metal_cooking_pot": "Tofu Metal Cooking Pot",
+  "block.tofudelight.tofu_metal_cooking_pot": "Metal Tofu Cooking Pot",
   "block.tofudelight.soy_gratin_pumpkin_block": "Soy Gratin Pumpkin Block",
   "block.tofudelight.ttt_burger": "TTT Burger",
   "block.tofudelight.soy_chocolate_cake_block": "Soy Chocolate Cake",
   "block.tofudelight.soy_chicken": "Soy Chicken",
-  "item.tofudelight.tofu_metal_knife": "Tofu Metal Knife",
-  "item.tofudelight.tofu_diamond_knife": "Tofu Diamond Knife",
+  "item.tofudelight.tofu_metal_knife": "Metal Tofu Knife",
+  "item.tofudelight.tofu_diamond_knife": "Diamond Tofu Knife",
   "item.tofudelight.cooked_soymeat": "Cooked Soymeat",
   "item.tofudelight.soy_gratin_pumpkin": "Soy Gratin Pumpkin",
   "item.tofudelight.soy_chocolate_cake": "Soy Chocolate Cake",
@@ -14,9 +14,9 @@
   "item.tofudelight.kinako_rice_bread": "Kinako Rice Bread",
   "item.tofudelight.rice_bread": "Rice Bread",
   "item.tofudelight.rice_dough": "Rice Dough",
-  "item.tofudelight.soy_vegetable_noodle": "Soy Vegetable Noodle",
-  "item.tofudelight.soy_dandan_noodle": "Soy Dandan Noodle",
+  "item.tofudelight.soy_vegetable_noodle": "Soy Vegetable Noodles",
+  "item.tofudelight.soy_dandan_noodle": "Soy Dandan Noodles",
   "item.tofudelight.soymilk.when_drank_more": "When Drank Every Day:",
-  "farmersdelight.container.tofu_metal_cooking_pot": "Tofu Metal Cooking Pot",
+  "farmersdelight.container.tofu_metal_cooking_pot": "Metal Tofu Cooking Pot",
   "itemGroup.tofudelight.main_tab": "Tofu Delight"
 }
